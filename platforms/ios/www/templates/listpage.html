@@ -1,0 +1,7 @@
+ <ion-list class="margin-top-10 list" id="testList" ng-controller="recipeListController">
+    <ion-item ng-repeat="recipe in recepies">
+          <div class="item item-avatar col arrowDiv margin-0 item-text-wrap customer-item" ng-click="setRecipe(recipe.name)">
+                        <h4>Recipe Name : <b> {{recipe.name}} </b></h4>                     
+                    </div>   
+                </ion-item>
+</ion-list>

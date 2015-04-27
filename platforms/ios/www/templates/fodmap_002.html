@@ -1,0 +1,10 @@
+<ion-view view-title="Fruit">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="playlist in Fruit" href="#/app/Fruit/{{playlist.id}}" ng-click="getDetail(playlist)">
+       <i class="icon ion-{{playlist.fm}}"></i> 
+       {{playlist.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
